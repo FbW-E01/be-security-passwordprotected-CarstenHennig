@@ -1,0 +1,7 @@
+POST http://localhost:3003/thisisatest
+Content-Type: application/json
+
+{
+    "message": "All birds are good birds",
+    "password": "swordfish"
+}

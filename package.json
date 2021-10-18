@@ -1,0 +1,26 @@
+{
+  "name": "be-security-passwordprotected-carstenhennig",
+  "version": "1.0.0",
+  "description": "First create an API that takes in a message and saves that message. No matter what kind of request comes into your API, you should look at the request body and if that contains a message, you should save the message.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-security-passwordprotected-CarstenHennig.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-security-passwordprotected-CarstenHennig/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-security-passwordprotected-CarstenHennig#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
